@@ -1,0 +1,4 @@
+run SRART.JSP first
+
+db password:LPU
+DB NAME = login

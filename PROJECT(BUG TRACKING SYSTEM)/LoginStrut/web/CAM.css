@@ -1,0 +1,115 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 9, 2018, 8:57:58 PM
+    Author     : lenovo
+*/
+
+body{
+font-family:arial, sans-serif;
+text-align: center;
+}
+#nav{
+width:100%;
+height: 600px;
+background: url(img/re.jpg);
+background-size: cover;
+position:absolute;
+top:00px;
+left:00px;
+}
+#nav_wrapper ul li {
+display: inline;
+font-weight: bold;
+padding: 10px;
+margin-left: 300px;
+margin-top: 100px;
+margin-right: 300px;
+border-radius: 25px;
+}
+#nav_wrapper ul li{
+background: red;
+transition: all 0.45s;
+border-radius: 25px;
+opacity: 0.7;
+filter: alpha (opacity = 70);
+}
+#nav_wrapper ul li:hover{
+background: yellow;
+transition: all 0.45s;
+border-radius: 25px;
+}
+#s3 iframe{
+margin-top: 600px;
+width: 600px;
+height: 600px;
+border-radius: 25px;
+}
+
+#nav_wrapper a{
+color: white;
+text-decoration: none;
+padding: 05px 05px;
+border-radius: 25px;
+}  
+#bod p{
+color: white;
+text-decoration: none;
+font-weight: bold;
+margin-top: 50px;
+padding: 05px 05px;
+border-radius: 25px;
+}  
+#gog img
+{
+margin-top: 75px;
+border-radius: 25px;
+-moz-box-shadow: 10px 10px 50px #ccc; 
+-webkit-box-shadow: 10px 10px 50px #ccc; box-shadow: 10px 10px 50px #ccc; 
+}
+.btn-theme
+{
+background-color:white;
+text-color:#333;
+width:200px;
+height:30px;
+padding:00px 04px;
+border-radius: 10px
+}
+.btn-ola
+{
+background-color:white;
+text-color:#333;
+width:450px;
+height:30px;
+padding:00px 04px;
+border-radius: 10px;
+}
+.roll
+{
+background-color:red;
+text-color:#333;
+width:100px;
+height:30px;
+padding:00px 04px;
+border-radius: 10px;
+}
+.img:hover span:after{
+background: yellow;
+transition: all 0.45s;
+}	
+
+#s3
+{
+width:100%;
+margin-top:550px;
+right: 00px;
+}
+#we
+{
+margin-top:550px;
+right: 00px;
+}
